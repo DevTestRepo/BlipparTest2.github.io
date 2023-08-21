@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>blippar</title>
+    <title>BlipparMarker</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = "sdk/blippar-webar-sdk-v1.6.1/webar-sdk/webar-sdk-v1.6.1.min.js?license-key=e83cdb55-c28e-4db5-b499-12275a8597ce"
+<script src = "sdk/blippar-webar-sdk-v1.6.3/webar-sdk/webar-sdk-v1.6.3.min.js?license-key=e83cdb55-c28e-4db5-b499-12275a8597ce"
 webar-mode="marker-tracking"
 static-camera = "true"
 auto-start="false"
 auto-init="false"
+enable-photo-ui="true"
 render-scene-on-desktop= "false"
 show-qr-card-on-desktop="false"
 
@@ -103,14 +104,14 @@ var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
 const stageObjectName = "dee829f1-110a-4ba2-be06-0ea352e1ef5a";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-blippar.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-BlipparMarker.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-blippar.data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-blippar.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-blippar.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-BlipparMarker.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-BlipparMarker.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-BlipparMarker.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "blippar",
+        companyName: "Blippar",
+        productName: "BlipparMarker",
         productVersion: "0.1",
       };
 
